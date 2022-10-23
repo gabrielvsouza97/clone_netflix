@@ -24,6 +24,7 @@ export default function App() {
         {homeFilms.map((item, index) => {
           return (<div key={index}>
             {item.brazilianName}
+            <p>{item.englishName}</p>
           </div>)
         }) }
       </div>
